@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>🎂 Happy Birthday Cedrick 🎂</h1>
+    <p>June 08, 2025</p>
+  </header>
+
+  <!-- Image Gallery Section -->
+ <section class="gallery-section">
+  <h2>📸 </h2>
+  <div class="gallery">
+    <img src="assets/images/pic3.jpg" alt="Memory 1" onclick="openFullscreen(this)" />
+    <img src="assets/images/pic2.jpg" alt="Memory 2" onclick="openFullscreen(this)" />
+    <img src="assets/images/pic1.jpg" alt="Memory 3" onclick="openFullscreen(this)" />
+    <img src="assets/images/pic5.jpg" alt="Memory 4" onclick="openFullscreen(this)" />
+    <img src="assets/images/pic4.jpg" alt="Memory 5" onclick="openFullscreen(this)" />
+  </div>
+</section>
+
+<!-- Fullscreen Image Modal -->
+<div id="lightbox" onclick="closeFullscreen()">
+  <img id="lightbox-img" />
+</div>
+
+  <!-- Video Section -->
+  <section class="video-section">
+    <h2>🎥 watchhh watchh watchh</h2>
+    <video id="birthdayVideo" controls width="300">
+      <source src="assets/video/ced.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Happy Birthday Cedrick, salamat sa lahat ng tulong alam mo naman na lahat yan 🤝. More Birthdays to come, uwi ka na di nako galit mwa mwa. </p>
+  </footer>
+
+ <audio id="bg-music" autoplay loop muted>
+    <source src="assets/music/bday.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
